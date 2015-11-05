@@ -5,6 +5,14 @@ body{
 #master{
 	width: 100%;
 }
+
+#master h3{
+	margin: 0 auto;
+	width: 165px;
+	text-align: right;
+	color: #efefef;
+}
+
 #master li{
 	display: inherit;
 }
@@ -23,7 +31,7 @@ body{
 }
 
 #mainMenu button{
-	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 #content{
