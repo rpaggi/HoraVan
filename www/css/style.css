@@ -8,9 +8,10 @@ body{
 
 #master h3{
 	margin: 0 auto;
-	width: 165px;
+	width: 170px;
 	text-align: right;
 	color: #efefef;
+	padding-bottom: 20px;
 }
 
 #master li{
@@ -18,7 +19,8 @@ body{
 }
 
 #master button{
-	width: 190px;
+	width: 200px;
+	height: 60px;
 	color: white;
 	background: #aaa;
 	border: 1px solid #888;
@@ -31,7 +33,7 @@ body{
 }
 
 #mainMenu button{
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
 
 #content{
@@ -42,4 +44,34 @@ body{
 	padding-left: 50px;
 	color: #efefef;
 	font-weight: bold;
+}
+
+@media only screen and (max-height: 480px) {
+	#master button{
+		 height: 35px;
+	}
+
+	#mainMenu button{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 303px) {
+	#master button{
+		margin-left: -30px;
+		width: 160px;
+	}
+
+	#mainMenu button{
+		margin-bottom: 20px;
+	}
+
+	#master h3{
+		display:none;
+	}
+
+	#mainMenu, #content{
+		margin: 0 auto;
+		width: 100%;
+	}
 }
