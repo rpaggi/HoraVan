@@ -76,3 +76,9 @@ document.getElementById('btnVoltar').onclick = function(){
 	$('#content').css('display', 'none');
 	$("#hora").remove();
 }
+
+$(window).load(function() {
+	window.resizeTo(350,240);
+	$('#scrTxt').remove();
+	$('#screenSize').append('<p id="scrTxt">'+ $(window).height() + ' X ' + $(window).width() + '</p>');
+})
