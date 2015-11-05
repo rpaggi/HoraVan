@@ -1,11 +1,37 @@
+body{
+	background-color: #00a1ee	
+}
+
+#master{
+	width: 100%;
+}
 #master li{
 	display: inherit;
 }
 
 #master button{
 	width: 190px;
+	color: white;
+	background: #aaa;
+	border: 1px solid #888;
+	font-weight: bold;
+}
+
+#mainMenu, #content{
+	margin: 0 auto;
+	width: 260px;
+}
+
+#mainMenu button{
+	margin-top: 25px;
 }
 
 #content{
 	display: none;
+}
+
+#hora{
+	padding-left: 50px;
+	color: #efefef;
+	font-weight: bold;
 }
