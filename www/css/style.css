@@ -1,0 +1,11 @@
+#master li{
+	display: inherit;
+}
+
+#master button{
+	width: 190px;
+}
+
+#content{
+	display: none;
+}
